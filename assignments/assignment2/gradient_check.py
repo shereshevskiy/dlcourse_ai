@@ -23,6 +23,7 @@ def check_gradient(f, x, delta=1e-5, tol=1e-4):
     fx, analytic_grad = f(x)
     assert np.all(np.isclose(orig_x, x, tol)), "Functions shouldn't modify input variables"
 
+    # print("analytic_grad.shape", analytic_grad.shape, "x.shape", x.shape)  # fixme_ print
     assert analytic_grad.shape == x.shape
 
     def numeric_grad_array(f, x, h=delta):
@@ -48,10 +49,10 @@ def check_gradient(f, x, delta=1e-5, tol=1e-4):
         analytic_grad_at_ix = analytic_grad[ix]
         numeric_grad_at_ix = numeric_grad[ix]
 
-        # TODO compute value of numeric gradient of f to idx
+        # TODO_ compute value of numeric gradient of f to idx
         if not np.isclose(numeric_grad_at_ix, analytic_grad_at_ix, tol):
             print("Gradients are different at %s. Analytic: %2.5f, Numeric: %2.5f" % (
-            ix, analytic_grad_at_ix, numeric_grad_at_ix))
+                ix, analytic_grad_at_ix, numeric_grad_at_ix))
             return False
 
         it.iternext()
