@@ -3,7 +3,7 @@ import numpy as np
 from assignments.assignment1.linear_classifer import softmax, cross_entropy_loss
 
 
-def  l2_regularization(W, reg_strength):
+def l2_regularization(W, reg_strength):
     """
     Computes L2 regularization loss on weights and its gradient
 
