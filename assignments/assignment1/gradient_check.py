@@ -24,6 +24,7 @@ def check_gradient(f, x, delta=1e-5, tol=1e-4):
     assert np.all(np.isclose(orig_x, x, tol)), "Functions shouldn't modify input variables"
 
     assert analytic_grad.shape == x.shape
+    analytic_grad = analytic_grad.copy()
 
     def numeric_grad_array(f, x, h=delta):
         dx = np.zeros_like(x)
