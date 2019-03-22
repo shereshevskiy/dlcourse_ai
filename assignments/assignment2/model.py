@@ -18,6 +18,7 @@ class TwoLayerNet:
         reg, float - L2 regularization strength
         """
         self.reg = reg
+
         # TODO_ Create necessary layers
         # raise Exception("Not implemented!")
 
@@ -121,7 +122,6 @@ class TwoLayerNet:
         }
 
         # TODO_ Implement aggregating all of the params
-
         # raise Exception("Not implemented!")
 
         return result
