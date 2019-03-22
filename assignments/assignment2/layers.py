@@ -29,7 +29,7 @@ def softmax_with_cross_entropy(preds, target_index):
     including the gradient
 
     Arguments:
-      preds: np array, shape is either (N) or (N, batch_size) -
+      preds: np array, shape is either (N) or (batch_size, N) -
         classifier output
       target_index: np array of int, shape is (1) or (batch_size) -
         index of the true class for given sample(s)
