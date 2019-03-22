@@ -4,8 +4,6 @@
     <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment2/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553258848354</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="was completed 2.1">
+      <created>1553271622036</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553271622036</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -405,7 +410,8 @@
     <MESSAGE value="implemented 3 homework (assignment 2.1)" />
     <MESSAGE value="implemented 3 homework (assignment 2.1)#1" />
     <MESSAGE value="add analytic_grad = analytic_grad.copy()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add analytic_grad = analytic_grad.copy()" />
+    <MESSAGE value="was completed 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="was completed 2.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/requirements.txt">
