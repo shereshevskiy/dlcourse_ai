@@ -21,9 +21,10 @@ def check_gradient(f, x, delta=1e-5, tol=1e-4):
 
     orig_x = x.copy()
     fx, analytic_grad = f(x)
+    analytic_grad = analytic_grad.copy()
+    
     assert np.all(np.isclose(orig_x, x, tol)), "Functions shouldn't modify input variables"
 
-    # print("analytic_grad.shape", analytic_grad.shape, "x.shape", x.shape)  # fixme_ print
     assert analytic_grad.shape == x.shape
 
     def numeric_grad_array(f, x, h=delta):
