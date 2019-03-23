@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="the model was improved">
+    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +15,7 @@
     <favorites_list name="dlcourse_ai" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/assignment2/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -96,24 +83,6 @@
               <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
               <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
-              <item name="spring1718_assignment2_v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
-              <item name="spring1718_assignment2_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553273333217</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="resolved branches">
+      <created>1553373476121</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553373476121</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -335,7 +311,6 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46724892" visible="true" weight="0.2247191" />
       <window_info id="Structure" order="1" sideWeight="0.5327511" side_tool="true" visible="true" weight="0.2247191" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
-      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
@@ -347,6 +322,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,7 +394,8 @@
     <MESSAGE value="add analytic_grad = analytic_grad.copy()" />
     <MESSAGE value="was completed 2.1" />
     <MESSAGE value="the model was improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="the model was improved" />
+    <MESSAGE value="resolved branches" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolved branches" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/requirements.txt">
@@ -559,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment2/layers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -597,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/gradient_check.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -618,6 +581,20 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
         </state>
       </provider>
     </entry>
