@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
+    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="the model was improved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" afterDir="false" />
     </list>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553271622036</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="the model was improved">
+      <created>1553273333217</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1553273333217</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -324,15 +331,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46724892" visible="true" weight="0.2247191" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46724892" visible="true" weight="0.2247191" />
       <window_info id="Structure" order="1" sideWeight="0.5327511" side_tool="true" visible="true" weight="0.2247191" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +417,8 @@
     <MESSAGE value="implemented 3 homework (assignment 2.1)#1" />
     <MESSAGE value="add analytic_grad = analytic_grad.copy()" />
     <MESSAGE value="was completed 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="was completed 2.1" />
+    <MESSAGE value="the model was improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="the model was improved" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/requirements.txt">
