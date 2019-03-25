@@ -25,9 +25,9 @@ class MomentumSGD:
     Implements Momentum SGD update
     """
     def __init__(self, momentum=0.9):
-        self.momentum = 0.9
+        self.momentum = momentum
         self.velocity = 0
-    
+
     def update(self, w, d_w, learning_rate):
         """
         Performs Momentum SGD update
