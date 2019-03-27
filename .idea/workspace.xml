@@ -80,6 +80,12 @@
               <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="last_opened_file_path" value="$USER_HOME$/Python_venvs/dlcourse_ai" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -302,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553598235418</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hw 4 (2.2) with some begin of the experiment">
+      <created>1553670657269</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553670657269</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -317,21 +330,21 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46413502" visible="true" weight="0.22460938" />
-      <window_info id="Structure" order="1" sideWeight="0.53586495" side_tool="true" visible="true" weight="0.22460938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7298475" visible="true" weight="0.2280238" />
+      <window_info id="Structure" order="1" sideWeight="0.2701525" side_tool="true" visible="true" weight="0.2280238" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49834764" weight="0.32796487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49934897" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50065106" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329429" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49934897" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.329429" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4990086" visible="true" weight="0.32796487" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4970258" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009914" side_tool="true" visible="true" weight="0.32796487" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49966952" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49934897" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -406,7 +419,8 @@
     <MESSAGE value="resolved branches" />
     <MESSAGE value="some in PyTorch" />
     <MESSAGE value="hw 4 (2.2) without the experiment" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 4 (2.2) without the experiment" />
+    <MESSAGE value="hw 4 (2.2) with some begin of the experiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 4 (2.2) with some begin of the experiment" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/requirements.txt">
