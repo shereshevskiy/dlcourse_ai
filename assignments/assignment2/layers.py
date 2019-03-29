@@ -1,6 +1,6 @@
 import numpy as np
 
-from assignments.assignment1.linear_classifer import softmax, cross_entropy_loss
+from linear_classifer import softmax, cross_entropy_loss
 
 
 def l2_regularization(W, reg_strength):
@@ -148,8 +148,8 @@ class FullyConnectedLayer:
         d_B = np.dot(np.ones((X.shape[0], 1)).T, d_out)
         d_X = np.dot(d_out, W.T)
 
-        self.W.grad = d_W
-        self.B.grad = d_B
+        self.W.grad += d_W
+        self.B.grad += d_B
 
         return d_X
 

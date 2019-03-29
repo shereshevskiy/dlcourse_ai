@@ -1,7 +1,7 @@
 import numpy as np
 
-from assignments.assignment2.layers import FullyConnectedLayer, ReLULayer, softmax_with_cross_entropy, l2_regularization
-from assignments.assignment1.linear_classifer import softmax
+from layers import FullyConnectedLayer, ReLULayer, softmax_with_cross_entropy, l2_regularization
+from linear_classifer import softmax
 
 
 class TwoLayerNet:
