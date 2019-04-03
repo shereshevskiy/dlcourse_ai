@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scipy
+torch  # see https://pytorch.org/get-started/locally/
+torchvision  # see https://pytorch.org/get-started/locally/
+jupyter
+jupyterlab
