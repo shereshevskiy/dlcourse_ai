@@ -19,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/assignment2/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="187">
               <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/assignment2/trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
+            <state relative-caret-position="1955">
               <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554316518047</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added images to ass2">
+      <created>1554449779243</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1554449779243</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -391,11 +398,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55397147" visible="true" weight="0.22787318" />
-      <window_info id="Structure" order="1" sideWeight="0.4460285" side_tool="true" visible="true" weight="0.22787318" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55193484" visible="true" weight="0.22787318" />
+      <window_info id="Structure" order="1" sideWeight="0.44806516" side_tool="true" visible="true" weight="0.22787318" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -405,8 +411,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.329429" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.494716" weight="0.32748538" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48216644" visible="true" weight="0.28216374" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51783353" side_tool="true" visible="true" weight="0.28216374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48150593" visible="true" weight="0.28216374" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51849407" side_tool="true" visible="true" weight="0.28216374" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32894737" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49934897" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -488,7 +494,8 @@
     <MESSAGE value="2.2, 100 epochs, Test accuracy: 0.8252" />
     <MESSAGE value="added requirements.txt to root of project" />
     <MESSAGE value="Apr 03, the end of day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apr 03, the end of day" />
+    <MESSAGE value="added images to ass2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added images to ass2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/download_data.sh">
@@ -638,9 +645,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment2/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="187">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -657,28 +681,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment2/trainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
+        <state relative-caret-position="1955">
           <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment3/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment2/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
