@@ -1,11 +1,12 @@
 import numpy as np
 
+from linear_classifer import softmax, cross_entropy_loss
 
 def l2_regularization(W, reg_strength):
     '''
     Computes L2 regularization loss on weights and its gradient
 
-    Arguments:
+Arguments:
       W, np array - weights
       reg_strength - float value
 
@@ -13,8 +14,11 @@ def l2_regularization(W, reg_strength):
       loss, single value - l2 regularization loss
       gradient, np.array same shape as W - gradient of weight by l2 loss
     '''
-    # TODO: Copy from previous assignment
-    raise Exception("Not implemented!")
+    # TODO_: Copy from previous assignment
+    # raise Exception("Not implemented!")
+
+    loss = (W * W).sum() * reg_strength
+    grad = 2 * W * reg_strength
 
     return loss, grad
 
@@ -34,9 +38,22 @@ def softmax_with_cross_entropy(predictions, target_index):
       loss, single value - cross-entropy loss
       dprediction, np array same shape as predictions - gradient of predictions by loss value
     '''
-    # TODO copy from the previous assignment
-    raise Exception("Not implemented!")
-    return loss, dprediction
+    # TODO_ copy from the previous assignment
+    # raise Exception("Not implemented!")
+
+    preds = predictions.copy()
+
+    probs = softmax(preds)
+
+    loss = cross_entropy_loss(probs, target_index).mean()
+
+    mask = np.zeros_like(preds)
+    mask[np.arange(len(mask)), target_index] = 1
+    # mask[target_index] = 1
+
+    d_preds = - (mask - softmax(preds)) / mask.shape[0]
+
+    return loss, d_preds
 
 
 class Param:
@@ -51,16 +68,20 @@ class Param:
         
 class ReLULayer:
     def __init__(self):
-        pass
+        self.X = None
 
     def forward(self, X):
-        # TODO copy from the previous assignment
-        raise Exception("Not implemented!")
+        # TODO_ copy from the previous assignment
+        # raise Exception("Not implemented!")
+        result = np.maximum(X, 0)
+        self.X = X
+        return result
 
     def backward(self, d_out):
-        # TODO copy from the previous assignment
-        raise Exception("Not implemented!")
-        return d_result
+        # TODO_ copy from the previous assignment
+        # raise Exception("Not implemented!")
+        d_X = (self.X > 0) * d_out
+        return d_X
 
     def params(self):
         return {}
@@ -73,17 +94,31 @@ class FullyConnectedLayer:
         self.X = None
 
     def forward(self, X):
-        # TODO copy from the previous assignment
-        raise Exception("Not implemented!")
+        # TODO_ copy from the previous assignment
+        # raise Exception("Not implemented!")
+        W = self.W.value
+        B = self.B.value
+        self.X = Param(X)
+        out = np.dot(X, W) + B
+        return out
 
     def backward(self, d_out):
-        # TODO copy from the previous assignment
-        
-        raise Exception("Not implemented!")        
-        return d_input
+        # TODO_ copy from the previous assignment
+        # raise Exception("Not implemented!")
+        X = self.X.value
+        W = self.W.value
+
+        d_W = np.dot(X.T, d_out)
+        d_B = np.dot(np.ones((X.shape[0], 1)).T, d_out)
+        d_X = np.dot(d_out, W.T)
+
+        self.W.grad += d_W
+        self.B.grad += d_B
+
+        return d_X
 
     def params(self):
-        return { 'W': self.W, 'B': self.B }
+        return {'W': self.W, 'B': self.B}
 
     
 class ConvolutionalLayer:
@@ -111,24 +146,39 @@ class ConvolutionalLayer:
 
         self.padding = padding
 
-
     def forward(self, X):
         batch_size, height, width, channels = X.shape
 
         out_height = 0
         out_width = 0
         
-        # TODO: Implement forward pass
+        # TODO_: Implement forward pass
         # Hint: setup variables that hold the result
         # and one x/y location at a time in the loop below
         
         # It's ok to use loops for going over width and height
         # but try to avoid having any other loops
-        for y in range(out_height):
-            for x in range(out_width):
-                # TODO: Implement forward pass for specific location
-                pass
-        raise Exception("Not implemented!")
+
+        stride = 1
+        s = stride
+        out_height = int(1 + (height + 2 * self.padding - self.filter_size) / stride)
+        out_width = int(1 + (width + 2 * self.padding - self.filter_size) / stride)
+
+        pad_width = ((0, 0), (self.padding, self.padding), (self.padding, self.padding), (0, 0))
+        X_pad = np.pad(X, pad_width=pad_width, mode='constant', constant_values=0)
+
+        out = np.zeros((batch_size, out_height, out_width, self.out_channels))
+        for oh in range(out_height):
+            for ow in range(out_width):
+                # TODO_: Implement forward pass for specific location
+                for bs in range(batch_size):
+                    for oc in range(self.out_channels):
+                        out[bs, oh, ow, oc] = np.sum(X_pad[bs, oh * s:oh * s + self.filter_size,
+                                                           ow * s:ow * s + self.filter_size, :] *
+                                                     self.W.value[:, :, :, oc]) + self.B.value[oc]
+
+        # raise Exception("Not implemented!")
+        return out
 
 
     def backward(self, d_out):
