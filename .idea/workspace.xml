@@ -4,7 +4,6 @@
     <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/assignment3/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/CNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment3/gradient_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/gradient_check.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/assignment3/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/layers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/assignment3/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="294" column="81" lean-forward="true" selection-start-line="294" selection-start-column="81" selection-end-line="294" selection-end-column="81" />
+            <state relative-caret-position="309">
+              <caret line="315" column="39" selection-start-line="315" selection-start-column="39" selection-end-line="315" selection-end-column="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -410,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554729916444</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ass3.1: added MaxPoolingLayer">
+      <created>1554888357845</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554888357845</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -497,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1 homework was completed" />
     <MESSAGE value="some test with L2" />
     <MESSAGE value="cross_entropy_loss" />
     <MESSAGE value="np.newaxis for dists" />
@@ -522,7 +527,8 @@
     <MESSAGE value="added images to ass2" />
     <MESSAGE value="minor correction  PyTorch" />
     <MESSAGE value="ass3.1: ConvolutionaLayer has been implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="ass3.1: ConvolutionaLayer has been implemented" />
+    <MESSAGE value="ass3.1: added MaxPoolingLayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="ass3.1: added MaxPoolingLayer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/download_data.sh">
@@ -740,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment3/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="294" column="81" lean-forward="true" selection-start-line="294" selection-start-column="81" selection-end-line="294" selection-end-column="81" />
+        <state relative-caret-position="309">
+          <caret line="315" column="39" selection-start-line="315" selection-start-column="39" selection-end-line="315" selection-end-column="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
