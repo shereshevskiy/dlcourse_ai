@@ -98,14 +98,14 @@ class FullyConnectedLayer:
         # raise Exception("Not implemented!")
         W = self.W.value
         B = self.B.value
-        self.X = Param(X)
+        self.X = X
         out = np.dot(X, W) + B
         return out
 
     def backward(self, d_out):
         # TODO_ copy from the previous assignment
         # raise Exception("Not implemented!")
-        X = self.X.value
+        X = self.X
         W = self.W.value
 
         d_W = np.dot(X.T, d_out)
@@ -143,8 +143,10 @@ class ConvolutionalLayer:
         )
 
         self.B = Param(np.zeros(out_channels))
-
         self.padding = padding
+
+        self.stride = None
+        self.X = None
 
     def forward(self, X):
         batch_size, height, width, channels = X.shape
@@ -159,13 +161,13 @@ class ConvolutionalLayer:
         # It's ok to use loops for going over width and height
         # but try to avoid having any other loops
 
-        stride = 1
-        s = stride
-        out_height = int(1 + (height + 2 * self.padding - self.filter_size) / stride)
-        out_width = int(1 + (width + 2 * self.padding - self.filter_size) / stride)
+        self.stride = 1
+        s = self.stride
+        out_height = int(1 + (height + 2 * self.padding - self.filter_size) / self.stride)
+        out_width = int(1 + (width + 2 * self.padding - self.filter_size) / self.stride)
 
         pad_width = ((0, 0), (self.padding, self.padding), (self.padding, self.padding), (0, 0))
-        X_pad = np.pad(X, pad_width=pad_width, mode='constant', constant_values=0)
+        X = np.pad(X, pad_width=pad_width, mode='constant', constant_values=0)
 
         out = np.zeros((batch_size, out_height, out_width, self.out_channels))
         for oh in range(out_height):
@@ -173,10 +175,11 @@ class ConvolutionalLayer:
                 # TODO_: Implement forward pass for specific location
                 for bs in range(batch_size):
                     for oc in range(self.out_channels):
-                        out[bs, oh, ow, oc] = np.sum(X_pad[bs, oh * s:oh * s + self.filter_size,
+                        out[bs, oh, ow, oc] = np.sum(X[bs, oh * s:oh * s + self.filter_size,
                                                            ow * s:ow * s + self.filter_size, :] *
                                                      self.W.value[:, :, :, oc]) + self.B.value[oc]
 
+        self.X = X
         # raise Exception("Not implemented!")
         return out
 
@@ -187,26 +190,51 @@ class ConvolutionalLayer:
         # when you implemented FullyConnectedLayer
         # Just do it the same number of times and accumulate gradients
 
+        # initialization
+        X = self.X
+        W = self.W.value
+        filter_size, filter_size, channels, out_channels = W.shape
         batch_size, height, width, channels = X.shape
         _, out_height, out_width, out_channels = d_out.shape
+        dX = np.zeros_like(X)
+        dW = np.zeros_like(W)
+        s = self.stride
+        padding = self.padding
 
-        # TODO: Implement backward pass
+        # TODO_: Implement backward pass
         # Same as forward, setup variables of the right shape that
         # aggregate input gradient and fill them for every location
         # of the output
 
         # Try to avoid having any other loops here too
-        for y in range(out_height):
-            for x in range(out_width):
-                # TODO: Implement backward pass for specific location
-                # Aggregate gradients for both the input and
-                # the parameters (W and B)
-                pass
+        dB = np.sum(d_out, (0, 1, 2))
+        for n in range(batch_size):
+            for c in range(channels):
+                for oh in range(out_channels):
+                    for ho in range(out_height):
+                        for wo in range(out_width):
+                            # TODO_: Implement backward pass for specific location
+                            # Aggregate gradients for both the input and
+                            # the parameters (W and B)
+                            for hh in range(filter_size):
+                                for ww in range(filter_size):
+                                    dW[hh, ww, c, oh] += X[n, ho * s + hh, wo * s + ww, c] * d_out[n, ho, wo, oh]
+                            for hi in range(height):
+                                for wi in range(width):
+                                    if (hi - ho * s >= 0) and (hi - ho * s < filter_size) and \
+                                            (wi - wo * s >= 0) and (wi - wo * s < filter_size):
+                                        dX[n, hi, wi, c] += W[hi - ho * s, wi - wo * s, c, oh] * d_out[n, ho, wo, oh]
 
-        raise Exception("Not implemented!")
+        # raise Exception("Not implemented!")
+        if padding != 0:
+            dX = dX[:, padding:-padding, padding:-padding, :]  # bach to the initial input size
+
+        self.B.grad = dB
+        self.W.grad = dW
+        return dX
 
     def params(self):
-        return { 'W': self.W, 'B': self.B }
+        return {'W': self.W, 'B': self.B}
 
 
 class MaxPoolingLayer:
@@ -224,15 +252,51 @@ class MaxPoolingLayer:
 
     def forward(self, X):
         batch_size, height, width, channels = X.shape
-        # TODO: Implement maxpool forward pass
+        # TODO_: Implement maxpool forward pass
         # Hint: Similarly to Conv layer, loop on
         # output x/y dimension
-        raise Exception("Not implemented!")
+        # raise Exception("Not implemented!")
+
+        out_height = int(np.ceil(1 + (height - self.pool_size) / self.stride))
+        out_width = int(np.ceil(1 + (width - self.pool_size) / self.stride))
+        out = np.zeros((batch_size, out_height, out_width, channels))
+        s = self.stride
+        for n in range(batch_size):
+            for c in range(channels):
+                for ho in range(out_height):
+                    for wo in range(out_width):
+                        out[n, ho, wo, c] = np.amax(X[n, ho * s:np.minimum(ho * s + self.pool_size, height),
+                                                      wo * s:np.minimum(wo * s + self.pool_size, width), c])
+        self.X = X
+        return out
+
 
     def backward(self, d_out):
-        # TODO: Implement maxpool backward pass
+        # TODO_: Implement maxpool backward pass
         batch_size, height, width, channels = self.X.shape
-        raise Exception("Not implemented!")
+        # raise Exception("Not implemented!")
+
+        X = self.X
+        batch_size, height, width, channels = X.shape
+        s = self.stride
+        out_height = int(np.ceil(1 + (height - self.pool_size) / self.stride))
+        out_width = int(np.ceil(1 + (width - self.pool_size) / self.stride))
+        dX = np.zeros_like(X)
+
+        for n in range(batch_size):
+            for c in range(channels):
+                for oh in range(out_height):
+                    for ow in range(out_width):
+                        X_pool = X[n, oh * s:np.minimum(oh * s + self.pool_size, height),
+                              ow * s:np.minimum(ow * s + self.pool_size, width), c]
+                        dX_pool = np.zeros_like(X_pool)
+                        ind_max = np.unravel_index(np.argmax(X_pool, axis=None), X_pool.shape)
+                        dX_pool[ind_max] = 1
+                        dX[n, oh * s:np.minimum(oh * s + self.pool_size, height),
+                        ow * s:np.minimum(ow * s + self.pool_size, width), c] += dX_pool * d_out[n, oh, ow, c]
+
+        return dX
+
 
     def params(self):
         return {}
