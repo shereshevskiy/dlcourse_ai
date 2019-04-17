@@ -26,7 +26,7 @@ def binary_classification_metrics(prediction, ground_truth):
     accuracy = true_prediction / len(prediction)
     f1 = 2 * (precision * recall) / (precision + recall)
 
-    # TODO: implement metrics!
+    # TODO_: implement metrics!
     # Some helpful links:
     # https://en.wikipedia.org/wiki/Precision_and_recall
     # https://en.wikipedia.org/wiki/F1_score
