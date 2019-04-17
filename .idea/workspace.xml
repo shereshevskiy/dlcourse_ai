@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/CNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/optim.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/optim.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dlcourse_ai" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/assignment3/layers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="242" column="97" selection-start-line="242" selection-start-column="97" selection-end-line="242" selection-end-column="97" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/assignment3/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignments/assignment3/trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/assignment3/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignments/assignment2/gradient_check.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>idx</find>
+      <find>print</find>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\dsher\Git\dlcourse_ai</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="shereshevskiy" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="dlcourse_ai" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assignments/assignment1/download_data.sh" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/README.md" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/metrics.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/knn.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/download_data.sh" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/KNN.ipynb" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/Linear classifier.ipynb" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/gradient_check.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/linear_classifer.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/metrics.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/trainer.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/optim.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment1/gradient_check.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/download_data.sh" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/model.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/layers.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment2/requirements.txt" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/gradient_check.py" />
+        <option value="$PROJECT_DIR$/cs231n/spring1718_assignment2_v2/cs231n/layers.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/model.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/optim.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/metrics.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/layers.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/trainer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="y" value="95" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
+              <item name="spring1718_assignment2_v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
+              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
+              <item name="spring1718_assignment2_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignments/assignment3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dsher\Git\dlcourse_ai\assignments\assignment3" />
+      <recent name="C:\Users\dsher\Git\dlcourse_ai" />
+      <recent name="C:\Users\dsher\GitHub\dlcourse_ai\assignments\assignment2" />
+      <recent name="C:\Users\dsher\GitHub\dlcourse_ai" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="dlcourse_ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8891" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="" />
+      <created>1551641333665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551641333665</updated>
+    </task>
+    <task id="LOCAL-00001" summary="three metods for knn (2 loops, 1 loop, without loop)">
+      <created>1551785993330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551785993330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1 homework was completed">
+      <created>1551906193993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551906193993</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some test with L2">
+      <created>1552038534652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552038534652</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cross_entropy_loss">
+      <created>1552057122089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552057122089</updated>
+    </task>
+    <task id="LOCAL-00005" summary="np.newaxis for dists">
+      <created>1552068596686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552068596686</updated>
+    </task>
+    <task id="LOCAL-00006" summary="loss, grad for without batch">
+      <created>1552250707227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552250707227</updated>
+    </task>
+    <task id="LOCAL-00007" summary="correct the loss as mean">
+      <created>1552381322317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552381322317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task 1 part 2 was completed">
+      <created>1552421438212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552421438212</updated>
+    </task>
+    <task id="LOCAL-00009" summary="minor correction">
+      <created>1552422100512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552422100512</updated>
+    </task>
+    <task id="LOCAL-00010" summary="minor correction">
+      <created>1552422126707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552422126707</updated>
+    </task>
+    <task id="LOCAL-00011" summary="minor correction">
+      <created>1552471314505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552471314505</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change path to data">
+      <created>1552489158464</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552489158464</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change path to data">
+      <created>1552856626174</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552856626174</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implemented 3 homework (assignment 2.1)">
+      <created>1553180937177</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553180937177</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implemented 3 homework (assignment 2.1)#1">
+      <created>1553196758494</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553196758494</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add analytic_grad = analytic_grad.copy()">
+      <created>1553258848354</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553258848354</updated>
+    </task>
+    <task id="LOCAL-00017" summary="was completed 2.1">
+      <created>1553271622036</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553271622036</updated>
+    </task>
+    <task id="LOCAL-00018" summary="the model was improved">
+      <created>1553273333217</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1553273333217</updated>
+    </task>
+    <task id="LOCAL-00019" summary="resolved branches">
+      <created>1553373476121</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553373476121</updated>
+    </task>
+    <task id="LOCAL-00020" summary="some in PyTorch">
+      <created>1553545431765</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1553545431765</updated>
+    </task>
+    <task id="LOCAL-00021" summary="hw 4 (2.2) without the experiment">
+      <created>1553598235418</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1553598235418</updated>
+    </task>
+    <task id="LOCAL-00022" summary="hw 4 (2.2) with some begin of the experiment">
+      <created>1553670657269</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553670657269</updated>
+    </task>
+    <task id="LOCAL-00023" summary="hw 4 (2.2) has been completed fully">
+      <created>1553689163156</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1553689163156</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2.2, 100 epochs, Test accuracy: 0.8252">
+      <created>1553711858367</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1553711858367</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added requirements.txt to root of project">
+      <created>1554294424538</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294424538</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Apr 03, the end of day">
+      <created>1554316518047</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1554316518047</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added images to ass2">
+      <created>1554449779243</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1554449779243</updated>
+    </task>
+    <task id="LOCAL-00028" summary="minor correction  PyTorch">
+      <created>1554490464497</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1554490464497</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ass3.1: ConvolutionaLayer has been implemented">
+      <created>1554729916444</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1554729916444</updated>
+    </task>
+    <task id="LOCAL-00030" summary="ass3.1: added MaxPoolingLayer">
+      <created>1554888357845</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554888357845</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ass3.1: added Flattener">
+      <created>1554888936433</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1554888936433</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54702497" visible="true" weight="0.18428005" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.45297503" side_tool="true" visible="true" weight="0.18428005" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4976867" weight="0.32796487" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49405548" weight="0.32748538" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.47886392" visible="true" weight="0.2383041" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.52113605" side_tool="true" visible="true" weight="0.2383041" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49934897" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cross_entropy_loss" />
+    <MESSAGE value="np.newaxis for dists" />
+    <MESSAGE value="loss, grad for without batch" />
+    <MESSAGE value="correct the loss as mean" />
+    <MESSAGE value="task 1 part 2 was completed" />
+    <MESSAGE value="minor correction" />
+    <MESSAGE value="change path to data" />
+    <MESSAGE value="implemented 3 homework (assignment 2.1)" />
+    <MESSAGE value="implemented 3 homework (assignment 2.1)#1" />
+    <MESSAGE value="add analytic_grad = analytic_grad.copy()" />
+    <MESSAGE value="was completed 2.1" />
+    <MESSAGE value="the model was improved" />
+    <MESSAGE value="resolved branches" />
+    <MESSAGE value="some in PyTorch" />
+    <MESSAGE value="hw 4 (2.2) without the experiment" />
+    <MESSAGE value="hw 4 (2.2) with some begin of the experiment" />
+    <MESSAGE value="hw 4 (2.2) has been completed fully" />
+    <MESSAGE value="2.2, 100 epochs, Test accuracy: 0.8252" />
+    <MESSAGE value="added requirements.txt to root of project" />
+    <MESSAGE value="Apr 03, the end of day" />
+    <MESSAGE value="added images to ass2" />
+    <MESSAGE value="minor correction  PyTorch" />
+    <MESSAGE value="ass3.1: ConvolutionaLayer has been implemented" />
+    <MESSAGE value="ass3.1: added MaxPoolingLayer" />
+    <MESSAGE value="ass3.1: added Flattener" />
+    <option name="LAST_COMMIT_MESSAGE" value="ass3.1: added Flattener" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/download_data.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/KNN_my.ipynb" />
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/KNN.ipynb" />
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="221">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs231n/spring1718_assignment2_v2/cs231n/classifiers/fc_net.py" />
+    <entry file="file://$PROJECT_DIR$/cs231n/spring1718_assignment2_v2/cs231n/classifiers/fc_net_MyCopy.py" />
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/Linear classifier.ipynb" />
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/linear_classifer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="168" column="62" selection-start-line="168" selection-start-column="62" selection-end-line="168" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/gradient_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/Neural Network.ipynb" />
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/PyTorch.ipynb" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/download_data.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/PyTorch_CNN.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/CNN.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/download_data.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/linear_classifer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/gradient_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs231n/spring1718_assignment2_v2/cs231n/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="663" column="4" lean-forward="true" selection-start-line="663" selection-start-column="4" selection-end-line="663" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/linear_classifer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/gradient_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/optim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/optim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment1/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="242" column="97" selection-start-line="242" selection-start-column="97" selection-end-line="242" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
