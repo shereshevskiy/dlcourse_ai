@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment1/download_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment1/download_data.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment1/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment1/knn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment1/linear_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment1/linear_classifer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/PyTorch_CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/PyTorch_CNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment3/download_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment3/download_data.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,37 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/assignment3/layers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="210" column="37" selection-start-line="210" selection-start-column="37" selection-end-line="210" selection-end-column="37" />
+            <state relative-caret-position="-1360">
+              <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/assignment2/download_data.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/assignment3/metrics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/assignment3/trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
+            <state relative-caret-position="1303">
               <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -130,9 +111,9 @@
         <option value="$PROJECT_DIR$/cs231n/spring1718_assignment2_v2/cs231n/layers.py" />
         <option value="$PROJECT_DIR$/assignments/assignment3/model.py" />
         <option value="$PROJECT_DIR$/assignments/assignment3/optim.py" />
-        <option value="$PROJECT_DIR$/assignments/assignment3/metrics.py" />
         <option value="$PROJECT_DIR$/assignments/assignment3/layers.py" />
         <option value="$PROJECT_DIR$/assignments/assignment3/trainer.py" />
+        <option value="$PROJECT_DIR$/assignments/assignment3/metrics.py" />
       </list>
     </option>
   </component>
@@ -154,11 +135,6 @@
             <path>
               <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dlcourse_ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dlcourse_ai" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,7 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554888936433</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="April 17: merged">
+      <created>1555494414791</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1555494414792</updated>
+    </task>
+    <task id="LOCAL-00033" summary="April 17: minor correct">
+      <created>1555496210613</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1555496210613</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -453,9 +443,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54130435" visible="true" weight="0.18428005" />
-      <window_info id="Structure" order="1" sideWeight="0.45869565" side_tool="true" visible="true" weight="0.18428005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5412668" visible="true" weight="0.18428005" />
+      <window_info id="Structure" order="1" sideWeight="0.4587332" side_tool="true" visible="true" weight="0.18428005" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -465,10 +456,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49405548" weight="0.32748538" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.47886392" weight="0.2383041" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.52113605" side_tool="true" visible="true" weight="0.32748538" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48546895" visible="true" weight="0.2383041" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.514531" side_tool="true" visible="true" weight="0.2383041" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32894737" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49934897" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" x="11" y="300" width="1514" height="422" id="GitHub Pull Requests" order="11" sideWeight="0.4953765" weight="0.32748538" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -525,8 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cross_entropy_loss" />
-    <MESSAGE value="np.newaxis for dists" />
     <MESSAGE value="loss, grad for without batch" />
     <MESSAGE value="correct the loss as mean" />
     <MESSAGE value="task 1 part 2 was completed" />
@@ -550,7 +539,9 @@
     <MESSAGE value="ass3.1: ConvolutionaLayer has been implemented" />
     <MESSAGE value="ass3.1: added MaxPoolingLayer" />
     <MESSAGE value="ass3.1: added Flattener" />
-    <option name="LAST_COMMIT_MESSAGE" value="ass3.1: added Flattener" />
+    <MESSAGE value="April 17: merged" />
+    <MESSAGE value="April 17: minor correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="April 17: minor correct" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/download_data.sh">
@@ -628,13 +619,6 @@
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment3/download_data.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment3/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -647,20 +631,10 @@
     <entry file="file://$PROJECT_DIR$/assignments/assignment3/PyTorch_CNN.ipynb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment3/CNN.ipynb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment2/download_data.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -776,23 +750,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/assignment3/metrics.py">
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/CNN.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment2/download_data.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/CNN_copy.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/download_data.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment3/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="210" column="37" selection-start-line="210" selection-start-column="37" selection-end-line="210" selection-end-column="37" />
+        <state relative-caret-position="-1360">
+          <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/assignment3/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/assignment3/trainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
+        <state relative-caret-position="1303">
           <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
