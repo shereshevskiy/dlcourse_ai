@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment4/HotdogOrNot_colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment4/HotdogOrNot_colab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment5/NegativeSampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment5/NegativeSampling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment1/linear_classifer.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment1/linear_classifer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignments/assignment5/Word2Vec_My.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment5/Word2Vec_My.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/assignment6/RNNs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment6/RNNs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/assignment5/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/assignment5/dataset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
     <favorites_list name="dlcourse_ai" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -461,8 +460,8 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53166986" visible="true" weight="0.18428005" />
-      <window_info id="Structure" order="1" sideWeight="0.46833014" side_tool="true" visible="true" weight="0.18428005" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.52996254" visible="true" weight="0.165786" />
+      <window_info id="Structure" order="1" sideWeight="0.47003746" side_tool="true" visible="true" weight="0.165786" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -472,8 +471,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4927345" weight="0.32748538" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48216644" visible="true" weight="0.2383041" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51783353" side_tool="true" visible="true" weight="0.2383041" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.48150593" visible="true" weight="0.21929824" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51849407" side_tool="true" visible="true" weight="0.21929824" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32894737" />
       <window_info anchor="bottom" x="11" y="300" width="1514" height="422" id="GitHub Pull Requests" order="11" sideWeight="0.4953765" weight="0.32748538" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
