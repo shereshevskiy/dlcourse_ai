@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="">
+    <list default="true" id="80225fa3-9d46-4344-b7ad-7f098e1d81f8" name="Default Changelist" comment="May 22'19: 5.2 was rerun with new train accuracy">
+      <change afterPath="$PROJECT_DIR$/assignments/assignment5/NegativeSampling_My.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +115,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558465312739</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="May 22'19: 5.2 was rerun with new train accuracy">
+      <created>1558518953634</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1558518953634</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -464,8 +472,8 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5304348" visible="true" weight="0.165786" />
-      <window_info id="Structure" order="1" sideWeight="0.4695652" side_tool="true" visible="true" weight="0.165786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5282609" visible="true" weight="0.165786" />
+      <window_info id="Structure" order="1" sideWeight="0.47173914" side_tool="true" visible="true" weight="0.165786" />
       <window_info id="Favorites" order="2" sideWeight="0.5021834" side_tool="true" weight="0.24983476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -474,9 +482,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49207398" visible="true" weight="0.32748538" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48150593" weight="0.21929824" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50792605" side_tool="true" visible="true" weight="0.32748538" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49075297" visible="true" weight="0.32748538" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.48084545" weight="0.21929824" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.509247" side_tool="true" visible="true" weight="0.32748538" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4993395" weight="0.32894737" />
       <window_info anchor="bottom" x="11" y="300" width="1514" height="422" id="GitHub Pull Requests" order="11" sideWeight="0.4953765" weight="0.32748538" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -535,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change path to data" />
     <MESSAGE value="implemented 3 homework (assignment 2.1)" />
     <MESSAGE value="implemented 3 homework (assignment 2.1)#1" />
     <MESSAGE value="add analytic_grad = analytic_grad.copy()" />
@@ -560,7 +567,8 @@
     <MESSAGE value="April 17: some minor remove" />
     <MESSAGE value="May 08'19: the start of 5.1 :)" />
     <MESSAGE value="May 25'19: 5.2 was completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="May 25'19: 5.2 was completed" />
+    <MESSAGE value="May 22'19: 5.2 was rerun with new train accuracy" />
+    <option name="LAST_COMMIT_MESSAGE" value="May 22'19: 5.2 was rerun with new train accuracy" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assignments/assignment1/download_data.sh">
